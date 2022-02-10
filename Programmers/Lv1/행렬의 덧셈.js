@@ -20,6 +20,6 @@ function solution(arr1, arr2) {
         // temp 배열을 answer 배열안에 집어 넣어준다.
         answer.push(temp);
     }
-    // answer 리턴하여 문제풀이
+    // answer 리턴하여 풀이 종료
     return answer;
 }
