@@ -7,7 +7,6 @@
 // [Solution 1.]
 function solution(num) {
     var answer = 0;
-    
     /* num이 1이 되면 반복문 종료 */
     while(num !== 1){
         /* num이 짝수면 2로 나누고 홀수면 3을 곱하고 1을 더한다 */
