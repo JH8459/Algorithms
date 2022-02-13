@@ -1,6 +1,6 @@
 /*
-  문제 : Level1 - K번째수
-  문제출처 : https://programmers.co.kr/learn/courses/30/lessons/42748
+  문제 : Level1 - 콜라츠 추측
+  문제출처 : https://programmers.co.kr/learn/courses/30/lessons/12943
 */
 
 /*---------------------------------------*/
