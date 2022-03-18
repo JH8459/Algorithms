@@ -16,10 +16,10 @@ function solution(n, lost, reserve) {
     for(let i=0; i<students.length; i++){
         /* 체육복 여유가 있다면 좌측 학생을 도와주고 도움이 필요없다면 우측학생을 도와준다 */
         if(students[i] === 2){
-            if(i>0 && students[i-1]===0){
+            if(students[i-1]===0){
                 students[i]--;
                 students[i-1]++;
-            } else if (i<students.length-1 && students[i+1]===0){
+            } else if (students[i+1]===0){
                 students[i]--;
                 students[i+1]++;
             }
