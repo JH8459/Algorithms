@@ -13,6 +13,6 @@ function solution(numbers) {
     const strArr = numbers.map((el) => el.toString());
     // 문자열을 더한값을 내림차순으로 구한다 ex) '4' + '40' = '440', '40' + '4' = '404'
     answer = strArr.sort((a,b) => (b+a) - (a+b)).join('');
-    // arrSum이 0이라면 '0'을 리턴하며 아니라면 answer를 리턴한다
+    // arrSum이 값이 존재하면 answer를 리턴하고 아니라면 '0'을 리턴
     return arrSum ? answer : '0';
 }
